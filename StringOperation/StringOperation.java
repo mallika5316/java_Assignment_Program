@@ -6,7 +6,7 @@
 //contains( ) and startsWith() and endsWith()
 package mypro;
 
-public class pro2a {
+public class StringOperation {
 	 public static void main(String[] args) {
 	        // String Creation
 	        String str1 = "Hello";

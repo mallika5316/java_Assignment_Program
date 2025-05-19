@@ -2,7 +2,7 @@
 //countWords()
 package mypro;
 
-public class pro3c5 {
+public class CountWord {
 	public static int countWords(String str) {
         int count = 0;
         boolean inWord = false;

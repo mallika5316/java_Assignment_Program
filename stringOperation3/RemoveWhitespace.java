@@ -2,7 +2,7 @@
 //function removeWhitespace()
 package mypro;
 
-public class pro3b5 {
+public class RemoveWhitespace {
 	 // User-defined method to remove all whitespace
     public static String removeWhitespace(String input) {
         return input.replaceAll("\\s+", "");

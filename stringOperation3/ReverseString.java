@@ -2,7 +2,7 @@
 //reverseString().
 package mypro;
 
-public class pro3b3 {
+public class ReverseString {
 	  // User-defined method to reverse a string
     public static String reverseString(String input) {
         return new StringBuilder(input).reverse().toString();

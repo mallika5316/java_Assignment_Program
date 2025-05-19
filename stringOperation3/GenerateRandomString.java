@@ -2,7 +2,7 @@
 //function generateRandomString()
 package mypro;
 
-public class pro3c4 {
+public class GenerateRandomString {
 	public static String generateRandomString(int length) {
         char[] chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789".toCharArray();
         String result = "";

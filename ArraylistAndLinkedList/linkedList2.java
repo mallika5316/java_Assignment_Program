@@ -2,7 +2,8 @@
 //objlist.descendingIterator())
 package mypro;
 import java.util.*;
-public class program1c2 {
+public class linkedList2
+ {
 	public static void main(String[] args) {
         // Initialize LinkedList with color values
         LinkedList<String> list = new LinkedList<>(Arrays.asList("Red", "Green", "Blue", "Yellow"));

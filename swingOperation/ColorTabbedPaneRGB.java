@@ -3,9 +3,9 @@
 package mypro;
 import java.awt.Color;
 import javax.swing.*;
-public class swingOperation5b {
+public class ColorTabbedPaneRGB {
 	JFrame f;
-	swingOperation5b(){
+	ColorTabbedPaneRGB(){
 	f=new JFrame();
 	JPanel p1=new JPanel();
 	JPanel p2=new JPanel();
@@ -25,6 +25,6 @@ public class swingOperation5b {
 	f.setVisible(true);
 	}
 	public static void main(String[] args) {
-	new swingOperation5b();
+	new ColorTabbedPaneRGB();
 	}
 }

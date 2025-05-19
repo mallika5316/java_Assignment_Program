@@ -5,10 +5,10 @@ package mypro;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
-public class swingOperation4c extends JFrame{
+public class ImageButtonEvent extends JFrame{
 	 JLabel messageLabel;
 
-	    public swingOperation4c() {
+	    public ImageButtonEvent() {
 	        setTitle("Clock Button Example");
 	        setSize(500, 300);
 	        setLayout(null);
@@ -54,6 +54,6 @@ public class swingOperation4c extends JFrame{
 	    }
 
 	    public static void main(String[] args) {
-	        new swingOperation4c();
+	        new ImageButtonEvent();
 	    }
 }

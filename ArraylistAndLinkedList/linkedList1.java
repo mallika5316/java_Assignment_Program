@@ -2,7 +2,7 @@
 //specified position ( 2nd) using iterator ( hint : Iterator iteratorobj = listobj.listIterator(1))
 package mypro;
 import java.util.*;
-public class program1c1 {
+public class linkedList1{
 	 public static void main(String[] args) {
 	        // Create a LinkedList with color elements
 	        LinkedList<String> list = new LinkedList<>(Arrays.asList("Red", "Green", "Blue", "Yellow"));

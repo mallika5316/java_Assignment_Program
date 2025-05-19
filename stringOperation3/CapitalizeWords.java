@@ -2,7 +2,7 @@
 //capitalizeWords()
 package mypro;
 
-public class pro3c1 {
+public class 	CapitalizeWords {
 	 public static String capitalizeWords(String input) {
 	        String[] words = input.trim().split("\\s+");
 	        StringBuilder result = new StringBuilder();

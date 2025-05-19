@@ -2,7 +2,7 @@
 //function isNumeric()
 package mypro;
 
-public class pro3c3 {
+public class IsNumeric {
 	 public static boolean isNumeric(String str) {
 	        for (int i = 0; i < str.length(); i++) {
 	            char c = str.charAt(i);

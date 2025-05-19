@@ -2,7 +2,7 @@
 //defined function truncate()
 package mypro;
 
-public class pro3c2 {
+public class TruncateString {
     public static String truncate(String input, int length) {
         if (input.length() <= length) {
             return input;

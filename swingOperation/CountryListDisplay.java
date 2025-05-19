@@ -9,9 +9,9 @@ import javax.swing.JList;
 import javax.swing.JScrollPane;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
-public class swingOperation5a extends JFrame {
+public class CountryListDisplay extends JFrame {
 	private JList<String> countryList;
-	public swingOperation5a() {
+	public CountryListDisplay() {
 	//create the model and add elements
 	DefaultListModel<String> listModel = new DefaultListModel<>();
 	listModel.addElement("USA");
@@ -46,6 +46,6 @@ public class swingOperation5a extends JFrame {
 
 	}
 	public static void main(String[] args) {
-	new swingOperation5a();
+	new CountryListDisplay();
 	}
 }

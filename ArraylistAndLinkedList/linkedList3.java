@@ -2,7 +2,7 @@
 //l_listobj.offerLast("Pink"))
 package mypro;
 import java.util.*;
-public class program1c3 {
+public class linkedList3 {
 	 public static void main(String[] args) {
 	        // Create a LinkedList and add elements
 	        LinkedList<String> list = new LinkedList<>(Arrays.asList("Red", "Green", "Blue"));

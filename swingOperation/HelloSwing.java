@@ -5,10 +5,10 @@ import java.awt.Color;
 import java.awt.Font;
 //A simple Swing application.
 import javax.swing.*;
-public class springOperation4a {
+public class HelloSwing {
 
 	
-	springOperation4a () {
+	HelloSwing () {
 		//Create a new JFrame container.
 		JFrame jfrm = new JFrame("A Simple Swing Application");
 		//jfrm.setFont("Serif",Font.BOLD,18);
@@ -31,7 +31,7 @@ public class springOperation4a {
 		//Create the frame on the event dispatching thread.
 		SwingUtilities.invokeLater(new Runnable() {
 		public void run() {
-		new springOperation4a();
+		new HelloSwing();
 		}
 		});
 		}	

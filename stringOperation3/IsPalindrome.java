@@ -2,7 +2,7 @@
 //and punctuation) using user defined function isPalindrome():
 package mypro;
 
-public class pro3b4 {
+public class IsPalindrome{
 	 // User-defined method to check palindrome
     public static boolean isPalindrome(String input) {
         String cleaned = input.replaceAll("[^a-zA-Z0-9]", "").toLowerCase();

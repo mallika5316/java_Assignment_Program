@@ -6,7 +6,7 @@
 //startsWith() and endsWith()
 package mypro;
 
-public class pro3a {
+public class StringOperation3a {
 	public static void main(String[] args) {
         // String Creation
         String str1 = "Hello";

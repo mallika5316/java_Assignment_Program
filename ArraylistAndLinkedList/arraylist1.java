@@ -2,7 +2,8 @@
 //the color "Red" is available or not
 package mypro;
 import java.util.*;
-public class program1b1 {
+public class arraylist1
+ {
 	 public static void main(String[] args) {
 	        ArrayList<String> colors = new ArrayList<>(Arrays.asList("Red", "Green", "Blue", "Yellow"));
 	        System.out.println("Colors: " + colors);

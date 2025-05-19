@@ -2,7 +2,7 @@
 //Collections.swap(l_list, 0, 2))
 package mypro;
 import java.util.*;
-public class program1c5 {
+public class linkedList5 {
 	 public static void main(String[] args) {
 	        // Create a LinkedList with sample colors
 	        LinkedList<String> list = new LinkedList<>(Arrays.asList("Red", "Green", "Blue", "Yellow"));

@@ -6,8 +6,8 @@ import javax.swing.*;
 import javax.swing.event.*;
 import java.awt.*;
 import java.util.HashMap;
-public class swingOperation5c extends JFrame {
-	 public swingOperation5c() {
+public class CountryCapitalList extends JFrame {
+	 public CountryCapitalList() {
 	        setTitle("Country and Capitals");
 	        setSize(400, 300);
 	        setDefaultCloseOperation(EXIT_ON_CLOSE);
@@ -55,6 +55,6 @@ public class swingOperation5c extends JFrame {
 	    }
 
 	    public static void main(String[] args) {
-	        new swingOperation5c();
+	        new CountryCapitalList();
 	    }
 }

@@ -2,7 +2,7 @@
 //using user defined function countOccurrences()
 package mypro;
 
-public class pro3b2 {
+public class CountOccurrence {
 	 // User-defined method to count occurrences
     public static int countOccurrences(String main, String sub) {
         int count = 0;

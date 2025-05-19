@@ -6,9 +6,9 @@ import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.*;
-public class springOperation4b {
+public class CountryButtonEvent {
 	JLabel l1;
-	springOperation4b(){
+	CountryButtonEvent(){
 	JFrame f=new JFrame("Button Example");
 	l1=new JLabel();
 	l1.setBounds(50,50, 700,100);
@@ -37,6 +37,6 @@ public class springOperation4b {
 	f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	}
 	public static void main(String[] args) {
-	new springOperation4b();
+	new CountryButtonEvent();
 	}
 }

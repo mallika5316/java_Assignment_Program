@@ -2,7 +2,7 @@
 //defined function isNullOrEmpty().
 package mypro;
 
-public class pro3b1 {
+public class isNullOrEmpty {
 	 public static boolean isNullOrEmpty(String str) {
 	        return str == null || str.trim().isEmpty();
 	    }

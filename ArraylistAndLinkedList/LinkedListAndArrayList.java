@@ -6,7 +6,7 @@
 //size, 9. Iterating over list, 10. Using Iterator, 11. Sorting, 12. Sublist, 13. Clearing the list
 package mypro;
 import java.util.*;
-public class pro1 {
+public class LinkedListAndArrayList {
 
 	    public static void main(String[] args) {
 	        // 1. Creating ArrayList and LinkedList

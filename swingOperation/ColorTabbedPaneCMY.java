@@ -2,10 +2,10 @@
 
 //5d. Develop a Swing program in Java to create a Tabbed Pan of Cyan, Magenta and Yellow and display the concerned color whenever the specific tab is selected in the Pan
 package mypro;
-import javax.swing.*;
 import java.awt.*;
-public class swingOperation5d extends JFrame{
-	public swingOperation5d() {
+import javax.swing.*;
+public class ColorTabbedPaneCMY extends JFrame{
+	public ColorTabbedPaneCMY() {
         setTitle("Color Tabbed Pane");
         setSize(400, 300);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
@@ -35,6 +35,6 @@ public class swingOperation5d extends JFrame{
     }
 
     public static void main(String[] args) {
-        new swingOperation5d();
+        new ColorTabbedPaneCMY();
     }
 }

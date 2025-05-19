@@ -3,7 +3,7 @@
 //your answer which one is better.
 package mypro;
 
-public class pro2b {
+public class PerformanceTest {
 	public static void main(String[] args) {
         int iterations = 10000;
 
