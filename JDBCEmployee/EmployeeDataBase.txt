@@ -1,0 +1,11 @@
+-- Create the database
+CREATE DATABASE IF NOT EXISTS Employee;
+USE Employee;
+
+-- Create the Emp table
+CREATE TABLE Emp (
+    Emp_No INT PRIMARY KEY,
+    Emp_Name VARCHAR(100),
+    Basic DOUBLE
+);
+

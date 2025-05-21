@@ -10,5 +10,8 @@
 
 - [	CountryListDisplay](https://github.com/mallika5316/java_Assignment_Program/blob/main/images/CountryListDisplay.png)
 - [ColorTabbedPaneRGB](https://github.com/mallika5316/java_Assignment_Program/blob/main/images/ColorTabbedPaneRGB.png)
-- [CountryCapitalList](https://github.com/mallika5316/java_Assignment_Program/blob/main/output/images/swingOperation5c.png)
+- [CountryCapitalList](https://github.com/mallika5316/java_Assignment_Program/blob/main/output/images/CountryCapitalList1.png)
+- [CountryCapitalList](https://github.com/mallika5316/java_Assignment_Program/blob/main/output/images/countryCapitalList1.png)
+
+
 - [ColorTabbedPaneCMY](https://github.com/mallika5316/java_Assignment_Program/blob/main/images/ColorTabbedPaneCMY.png)
