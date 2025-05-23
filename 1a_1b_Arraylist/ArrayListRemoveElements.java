@@ -2,7 +2,7 @@
 //2nd element and color "Blue" from the ArrayList
 package mypro;
 import java.util.*;
-public class arraylist2 {
+public class ArrayListRemoveElements {
 
 	public static void main(String[] args) {
         ArrayList<String> colors = new ArrayList<>(Arrays.asList("Red", "Green", "Blue", "Yellow"));
