@@ -2,7 +2,7 @@
 //the color "Red" is available or not
 package mypro;
 import java.util.*;
-public class arraylist1
+public class ArrayListSearchColor
  {
 	 public static void main(String[] args) {
 	        ArrayList<String> colors = new ArrayList<>(Arrays.asList("Red", "Green", "Blue", "Yellow"));
