@@ -15,41 +15,52 @@ Basic : 20000
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <%@ page import="java.sql.*" %>
 <html>
-<head>
-    <title>Delete Employee</title>
-</head>
+<head><title>Delete Employee by Name Starting Letter</title></head>
 <body>
-    <h2>Delete Employee Record</h2>
+    <h2>Delete Employees whose names start with:</h2>
 
     <form method="post">
-        Enter Employee ID to Delete: <input type="text" name="empid" required />
-        <input type="submit" value="Delete" />
+        Enter Starting Letter: <input type="text" name="startLetter" maxlength="1" required />
+        <input type="submit" value="Delete and Show Report" />
     </form>
 
 <%
-    String empIdStr = request.getParameter("empid");
+    String startLetter = request.getParameter("startLetter");
+    Connection con = null;
 
-    if (empIdStr != null && !empIdStr.isEmpty()) {
-        int empId = Integer.parseInt(empIdStr);
+    try {
+        Class.forName("com.mysql.cj.jdbc.Driver");
+        con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Employee", "root", ""); // add password if needed
 
-        try {
-            Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/Employee", "root", "");
-            PreparedStatement pstmt = conn.prepareStatement("DELETE FROM Emp WHERE Emp_NO = ?");
-            pstmt.setInt(1, empId);
-
-            int rows = pstmt.executeUpdate();
-
-            if (rows > 0) {
-                out.println("<p style='color:green;'>Employee with ID " + empId + " deleted successfully.</p>");
-            } else {
-                out.println("<p style='color:red;'>Employee with ID " + empId + " not found.</p>");
-            }
-
-            conn.close();
-        } catch (Exception e) {
-            out.println("<p>Error: " + e.getMessage() + "</p>");
+        if (startLetter != null && !startLetter.trim().isEmpty()) {
+            PreparedStatement delStmt = con.prepareStatement("DELETE FROM Emp WHERE Emp_Name LIKE ?");
+            delStmt.setString(1, startLetter + "%");
+            int rowsDeleted = delStmt.executeUpdate();
+            out.println("<p style='color:green'>" + rowsDeleted + " record(s) deleted where Emp_Name starts with '" + startLetter + "'</p>");
         }
+
+        // Display Salary Report
+        out.println("<h3>Salary Report</h3>");
+        out.println("<pre>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</pre>");
+
+        Statement stmt = con.createStatement();
+        ResultSet rs = stmt.executeQuery("SELECT * FROM Emp");
+
+        int grandSalary = 0;
+        while (rs.next()) {
+            int eno = rs.getInt("Emp_NO");
+            String ename = rs.getString("Emp_Name");
+            int basic = rs.getInt("Basicsalary");
+            grandSalary += basic;
+
+            out.println("<pre>Emp_No   : " + eno + "\nEmp_Name : " + ename + "\nBasic    : " + basic + "\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</pre>");
+        }
+
+        out.println("<pre><b>Grand Salary : " + grandSalary + "</b>\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</pre>");
+    } catch (Exception e) {
+        out.println("<p style='color:red'>Error: " + e.getMessage() + "</p>");
+    } finally {
+        if (con != null) try { con.close(); } catch (Exception e) {}
     }
 %>
 </body>
