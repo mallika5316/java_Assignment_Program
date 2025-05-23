@@ -1,7 +1,7 @@
 ### 📝 Exercise - LinkedList
 
-- [LinkedList_1](https://github.com/mallika5316/java_Assignment_Program/blob/main/images/linkedList1.png)
-- [LinkedList_2](https://github.com/mallika5316/java_Assignment_Program/blob/main/images/linkedList2.png)
-- [LinkedList_3](https://github.com/mallika5316/java_Assignment_Program/blob/main/images/linkedList3.png)
-- [LinkedList_4](https://github.com/mallika5316/java_Assignment_Program/blob/main/images/linkedList4.png)
-- [LinkedList_5](https://github.com/mallika5316/java_Assignment_Program/blob/main/images/linkedList5.png)
+- [IterateFromSecond](https://github.com/mallika5316/java_Assignment_Program/blob/main/images/linkedList1.png)
+- [ReverseLinkedList](https://github.com/mallika5316/java_Assignment_Program/blob/main/images/linkedList2.png)
+- [InsertAtEnd](https://github.com/mallika5316/java_Assignment_Program/blob/main/images/linkedList3.png)
+- [DisplayWithPosition](https://github.com/mallika5316/java_Assignment_Program/blob/main/images/linkedList4.png)
+- [SwapElements](https://github.com/mallika5316/java_Assignment_Program/blob/main/images/linkedList5.png)
