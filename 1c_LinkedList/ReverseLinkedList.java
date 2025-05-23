@@ -2,7 +2,7 @@
 //objlist.descendingIterator())
 package mypro;
 import java.util.*;
-public class linkedList2
+public class ReverseLinkedList
  {
 	public static void main(String[] args) {
         // Initialize LinkedList with color values

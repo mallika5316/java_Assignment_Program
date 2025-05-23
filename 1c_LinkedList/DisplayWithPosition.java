@@ -2,7 +2,7 @@
 //l_listobj.get(p) )
 package mypro;
 import java.util.*;
-public class linkedList4 {
+public class DisplayWithPosition {
 	public static void main(String[] args) {
         // Create a LinkedList with colors
         LinkedList<String> list = new LinkedList<>(Arrays.asList("Red", "Green", "Blue", "Yellow"));
