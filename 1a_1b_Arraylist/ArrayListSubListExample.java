@@ -2,7 +2,7 @@
 //elements 1st and 2nd from the ArrayList object by using SubList()
 package mypro;
 import java.util.*;
-public class arraylist4 {
+public class ArrayListSubListExample {
 	public static void main(String[] args) {
         ArrayList<String> colors = new ArrayList<>(Arrays.asList("Red", "Green", "Blue", "Yellow", "Black"));
         System.out.println("Original list: " + colors);
