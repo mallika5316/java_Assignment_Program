@@ -2,7 +2,7 @@
 //using Collections.sort( ArrayListObj)
 package mypro;
 import java.util.*;
-public class arraylist3 {
+public class ArrayListSortColors {
 	
 	    public static void main(String[] args) {
 	        ArrayList<String> colors = new ArrayList<>(Arrays.asList("Violet", "Red", "Green", "Blue", "Yellow"));
