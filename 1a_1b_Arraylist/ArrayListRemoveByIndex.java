@@ -2,7 +2,7 @@
 //element from the ArrayList object by using remove by index
 package mypro;
 import java.util.*;
-public class arraylist5 {
+public class ArrayListRemoveByIndex {
 	public static void main(String[] args) {
         ArrayList<String> colors = new ArrayList<>(Arrays.asList("Red", "Green", "Blue", "Yellow", "Black"));
         int n = 3; // Remove the 3rd element (index = 2)
